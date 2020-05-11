@@ -59,5 +59,8 @@ class Owner
     Cat.all.each do |cat|
       cat.mood = "nervous"
     end
+    Dog.all.each do |do|
+      dog.mood = "nervous"
+    end
   end
 end
